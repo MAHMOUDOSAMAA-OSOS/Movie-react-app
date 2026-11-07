@@ -6,7 +6,7 @@ import { useEffect,useState } from 'react';
 import axios from 'axios';
 import Error from './componants/error';
 import Display from './componants/display';
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
 
 const [data, setData] = useState([]);

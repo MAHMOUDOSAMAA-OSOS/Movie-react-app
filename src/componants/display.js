@@ -1,5 +1,5 @@
 import { Card ,ListGroup , Col,Row, Container, Button } from "react-bootstrap";
-import {Link , useParams} from 'react-router';
+import {Link , useParams} from 'react-router-dom';
 import axios from "axios";
 import { useEffect, useState } from "react";
   const Display = () => {

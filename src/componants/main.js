@@ -2,7 +2,7 @@ import './main.css';
 import { Row, Col, Card, Container } from 'react-bootstrap';
 import { Fade } from 'react-awesome-reveal';
 import Pagination from './pagination';
-import {Link} from 'react-router';
+import {Link} from 'react-router-dom';
 
 const Main = ({ data , handlePagination, pageCount }) => {
   return (
