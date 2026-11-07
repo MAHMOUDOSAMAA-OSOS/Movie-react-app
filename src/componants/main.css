@@ -1,0 +1,15 @@
+.hover-card {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hover-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  overflow-y: auto; /* لو النص طويل */
+}
+
+.hover-card:hover .hover-overlay {
+  opacity: 1;
+}
